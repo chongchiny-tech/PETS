@@ -3,14 +3,14 @@
     // 1. FIREBASE CONFIGURATION & INITIALIZATION
     // ==========================================
     const firebaseConfig = {
-      apiKey: String.fromCharCode(65,73,122,97,83,121,67,45,103,74,74,80,101,121,103,106,48,100,83,116,110,71,86,73,87,68,104,48,95,116,95,116,113,54,108,108,53,102,85),
-      authDomain: "step2-tanjb.firebaseapp.com",
-      projectId: "step2-tanjb",
-      storageBucket: "step2-tanjb.firebasestorage.app",
-      messagingSenderId: "665109378166",
-      appId: "1:665109378166:web:153782aba892e736b05b57",
-      measurementId: "G-J21PYF51EE"
-    };
+      apiKey: String.fromCharCode(65,73,122,97,83,121,65,116,99,84,67,65,115,83,52,101,70,115,100,87,102,57,48,104,67,81,67,114,110,67,88,120,56,116,69,90,48,57,85),
+      authDomain: "pets-d89f0.firebaseapp.com",
+  projectId: "pets-d89f0",
+  storageBucket: "pets-d89f0.firebasestorage.app",
+  messagingSenderId: "1075839487604",
+  appId: "1:1075839487604:web:ab5f82d7e88f4148d3cb21",
+  measurementId: "G-RPKSN6VR21"
+};
 
     let db = null;
     let auth = null;
